@@ -15,7 +15,8 @@ destination_node int64
 ## Business objectives and constraints:
 <li>No low-latency requirements.</li>
 <li>Predciting the probability of a link is useful so as to recommend the highest probability links to a user.</li>
-<li>We got to suggest connnections which are most likley to be correct and we should try and not miss out any connnections.</li>
+<li>We got to suggest connnections which are most likley to be correct and we should try and not miss out any connnections.</li><br>
+
 ## Performance metric for supervised learning:
 <li>Both precision and recall are important, hence F1 score is good choice </li>
 <li>Confusion matrix </li>
